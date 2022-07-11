@@ -1,10 +1,14 @@
 {
+    "global": {
+        "": ""
+    },
     "www.google.com": {
         "Google Search": "Give Google more Metadata",
         "I'm Feeling Lucky": "Clickjack My Search Result",
         "Carbon neutral since 2007": "<a href='https://www.bbc.com/news/technology-54141899'>we bought co2 rights somewhere else to escape regulation and print 'carbon neutral' here</a>"
     },
     "duckduckgo.com":{
-        "Privacy, simplified.": "<a href='https://cyberguy.com/privacy/duckduckgo-privacy-browser-caught-sending-tracking-data-to-microsoft/'>We don't share any userdata, except with Microsoft.</a><br>"
+        "Privacy, simplified.": "<a href='https://cyberguy.com/privacy/duckduckgo-privacy-browser-caught-sending-tracking-data-to-microsoft/'>We don't share any userdata, except with Microsoft.</a><br>",
+        "take back your privacy!": "<a href='https://cyberguy.com/privacy/duckduckgo-privacy-browser-caught-sending-tracking-data-to-microsoft/'>help us give more data to Microsoft!</a>"
     }
 }
