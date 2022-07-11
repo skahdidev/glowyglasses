@@ -1,8 +1,8 @@
 {
-    "www.google.com": {
+    "https://www.google.com/": {
         "Carbon neutral since 2007": "<h3>This is a test</h3>"
     },
-    "duckduckgo.com":{
+    "https://duckduckgo.com/":{
         "Privacy, simplified.": "<a href='https://cyberguy.com/privacy/duckduckgo-privacy-browser-caught-sending-tracking-data-to-microsoft/'>We don't share any userdata, except with Microsoft.</a><br>",
         "take back your privacy!": "<a href='https://cyberguy.com/privacy/duckduckgo-privacy-browser-caught-sending-tracking-data-to-microsoft/'>help us give more data to Microsoft!</a>"
     }
