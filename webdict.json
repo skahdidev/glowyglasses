@@ -1,6 +1,6 @@
 {
     "https://www.google.com/": {
-        "Carbon neutral since 2007": "<h3>This is a test</h3>"
+        "Carbon neutral since 2007": "<h3><a href='https://www.bbc.com/news/technology-54141899'>We bought co2 rights somewhere else to escape regulation and print carbon neutral here.</a></h3>"
     },
     "https://duckduckgo.com/":{
         "Privacy, simplified.": "<a href='https://cyberguy.com/privacy/duckduckgo-privacy-browser-caught-sending-tracking-data-to-microsoft/'>We don't share any userdata, except with Microsoft.</a><br>",
