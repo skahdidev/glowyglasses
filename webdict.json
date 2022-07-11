@@ -1,6 +1,6 @@
 {
     "www.google.com": {
-        "Carbon neutral since 2007": "Test"
+        "Carbon neutral since 2007": "<h3>This is a test</h3>"
     },
     "duckduckgo.com":{
         "Privacy, simplified.": "<a href='https://cyberguy.com/privacy/duckduckgo-privacy-browser-caught-sending-tracking-data-to-microsoft/'>We don't share any userdata, except with Microsoft.</a><br>",
