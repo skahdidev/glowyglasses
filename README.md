@@ -1,4 +1,4 @@
-# glowyglasses
+# Minerva
 A pair of glasses for your web browser to translate corporate speak to English.
 
 ---
