@@ -6,7 +6,7 @@ A pair of glasses for your web browser that translates corporate speak to Englis
 ---
 
 ## Installing
-drag the glowyglasses folder into your chrome extensions page.
+drag the minerva-chrome folder into your chrome extensions page.
 
 ---
 
