@@ -1,8 +1,11 @@
 {
     "manifest_version": 3,
     "name": "Minerva",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A pair of glasses for your web browser that translates corporate speak to English, and fact checks the fact checkers.",
+    "icons": {  "16": "./icons/icon_16.png",
+                "48": "./icons/icon_48.png",
+                "128": "./icons/icon_128.png"},
     "content_scripts": [{
       "css": ["styles.css"],
       "js": ["minerva.js"],

@@ -1,12 +1,11 @@
 const process_text = function(text, json, softcache){
-    let winhref = window.location.href.split("/");
-    let basehref = winhref[2]
-    console.log(basehref);
-    if (basehref in json) {
-        for (const [key, value] of Object.entries(json[basehref])) {
+    let winhref = window.location.href;
+    console.log(winhref);
+    if (winhref in json) {
+        for (const [key, value] of Object.entries(json[winhref])) {
             if (text.includes(key) && !(softcache.includes(key))) {
-                let url = json[basehref][key]['citation'];
-                let correction = json[basehref][key]['correction'];
+                let url = json[winhref][key]['citation'];
+                let correction = json[winhref][key]['correction'];
                 softcache.push(key);
                 text = text.replace(key,   
                 `<span class="gg_tooltip">
