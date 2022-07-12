@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+   
+    "name": "GlowyGlasses",
+    "version": "0.0.1",
+    "description": "Corporate Speak Translator.",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://*/*"],
+      "permissions": ["https://raw.githubusercontent.com/skahdidev/glowyglasses/main/webdict.json"]
+    }]
+   
+}
