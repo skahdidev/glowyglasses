@@ -1,5 +1,5 @@
 # Minerva
-A pair of glasses for your web browser to translate corporate speak to English.
+A pair of glasses for your web browser that translates corporate speak to English, and fact checks the fact checkers.
 
 ---
 
