@@ -6,7 +6,8 @@ A pair of glasses for your web browser that translates corporate speak to Englis
 ---
 
 ## Installing
-drag the minerva-chrome folder into your chrome extensions page.
+1. Go to brave://extensions/ or chrome://extensions/ depending on your browser.
+2. Drag and drop the .zip file onto the extensions page.
 
 ---
 
