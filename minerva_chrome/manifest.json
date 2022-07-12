@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Minerva",
+    "version": "0.0.1",
+    "description": "A pair of glasses for your web browser that translates corporate speak to English, and fact checks the fact checkers.",
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["minerva.js"],
+      "matches": ["*://*/*"],
+      "permissions": ["https://raw.githubusercontent.com/skahdidev/glowyglasses/main/webdict.json"]
+    }]
+}
