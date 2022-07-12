@@ -1,6 +1,6 @@
 const process_text = function(text, json, softcache){
     let winhref = window.location.href;
-    console.log(winhref);
+    //console.log(winhref);
     if (winhref in json) {
         for (const [key, value] of Object.entries(json[winhref])) {
             if (text.includes(key) && !(softcache.includes(key))) {
