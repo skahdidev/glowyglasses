@@ -11,8 +11,7 @@ drag the glowyglasses folder into your chrome extensions page.
 ---
 
 ## Contributing
-Wanna help fact-check the fact checkers? Expose some corporate euphemisms?
-
+Wanna help fact-check the fact checkers?
 [Fill in this form!](https://forms.gle/ku31tYyPfBx7KBk76)
 
 OR
