@@ -1,11 +1,11 @@
 {
-    "https://www.google.com/": {
+    "www.google.com": {
         "Carbon neutral since 2007": {
             "correction": "We bought co2 rights somewhere else to escape regulation and print carbon neutral here.",
             "citation": "https://www.bbc.com/news/technology-54141899"
         }
     },
-    "https://duckduckgo.com/":{
+    "duckduckgo.com":{
         "Privacy, simplified. ": {
             "correction": "Private, if you don't count us sharing data with Microsoft.",
             "citation": "https://cyberguy.com/privacy/duckduckgo-privacy-browser-caught-sending-tracking-data-to-microsoft/"
