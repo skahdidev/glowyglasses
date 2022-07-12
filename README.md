@@ -20,3 +20,8 @@ OR
 
 NOTE: The moderation team is comprised of an equal amount of members categorized by each side of the political compass. You need to take the political compass "test" to join the moderation team, and you won't be added until at least 3 other members of opposing sides of the compass can be added as well.
 [Take the test](https://politicalcompass.org/test)
+
+_What do the moderators do?_
+
+If you're a moderator, you'll be added to a discord channel where you can vote on the validity of incoming fact-check contributions.
+It's really important to research before leaving your vote, as the data will be added to the json file automatically throughout the day and subsequently update the plugin for everyone who has it installed.
