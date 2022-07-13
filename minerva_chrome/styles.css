@@ -6,19 +6,21 @@
 .gg_tooltipbox {  
     visibility: hidden;
     width: 16em;
+    max-width: 16em;
     background-color: rgb(44, 44, 44);  
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.555);
     color: #fff;
-    border-radius: 6px;
+    border-radius: 20px;
     position: absolute;
     z-index: 1;
     bottom: 100%;
     left: 0%;
-    margin-left: -60px; 
+    margin-left: -60px;
     padding: 10px;
 }  
 .gg_tooltip:hover .gg_tooltipbox {  
     visibility: visible;
-}  
+} 
 .gg_tooltiptext { 
     width: 100%;
     word-break: break-word;
@@ -33,6 +35,8 @@
     padding: 10px;
     align-self: center;
     border: 1px solid transparent;
+    position: relative;
+    
 }
 .gg_button:hover {
     border: 1px solid rgb(184, 184, 184);

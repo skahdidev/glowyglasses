@@ -12,9 +12,8 @@ const process_text = function(text, json, softcache){
                 ${key}<div class="gg_tooltipbox">
                 <p class="gg_tooltiptext">${correction}</p>
                 <center>
-                <form style="display: inline" action="${url}" method="get">
-                    <button formtarget="_blank" class="gg_button">Citation</button>
-                </form>
+                <input type="button" class="gg_button" value="Citation" onclick="window.location.href='${url}'" />
+                <br>
                 </center>
                 </div></span>`);
             }
@@ -27,6 +26,7 @@ const parse = function(divs, json, softcache){
     for (let i = 0, l = divs.length; i < l; i++) {
         try {
             const text = divs[i].innerHTML;
+            // divs[i].href = "javascript:void(0)"
             const newtext = process_text(text, json, softcache);
             if (text !== newtext) { 
                 divs[i].innerHTML = newtext;
@@ -42,12 +42,12 @@ const parseStuff = function(json, softcache){
     let tags = document.querySelectorAll("p,h1,h2,h3,h4,span");
     let divs = document.getElementsByTagName("div")
     parse(divs, json, softcache);
-    parse(tags, json, softcache);
+    //parse(tags, json, softcache);
 };
 
 const xhr = new XMLHttpRequest();
 xhr.onload = function(){
-    const softcache = [];
+    let softcache = [];
     let json = xhr.responseText;
     json = json.replace(/^[^(]*\(([\S\s]+)\);?$/, '$1');
     json = JSON.parse(json);
