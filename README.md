@@ -13,7 +13,8 @@ A pair of glasses for your web browser that translates corporate speak to Englis
 
 ## Todo
 ### Bug fixes
-- [ ] Stop stealing input focus on search engine homepages.
+- [ ] Stop stealing input focus on search engine homepages. (This bug only exists in Brave Browser)
+- [ ] Citation button not working on some search engine homepages.
 ### Features and Other
 - [ ] Port to Firefox.
 
