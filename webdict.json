@@ -3,6 +3,10 @@
         "Carbon neutral since 2007": {
             "correction": "We bought co2 rights somewhere else to escape regulation and print carbon neutral here.",
             "citation": "https://www.bbc.com/news/technology-54141899"
+        },
+        "South Africa": {
+            "correction": "This is just a test string, and will be removed later.",
+            "citation": "https://google.com"
         }
     },
     "https://duckduckgo.com/":{
