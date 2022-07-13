@@ -8,7 +8,7 @@ A pair of glasses for your web browser that translates corporate speak to Englis
 **NOTE:** UNDER HEAVY CONSTRUCTION. THE EXTENSION'S CORE MIGHT CHANGE AT ANY TIME 
 
 ## Installing
-1. Go to brave://extensions/ or chrome://extensions/ depending on your browser.
+1. Go to `brave://extensions/` or `chrome://extensions/` depending on your browser.
 2. Drag and drop the .zip file onto the extensions page.
 
 ## Todo
