@@ -10,10 +10,11 @@ A pair of glasses for your web browser that translates corporate speak to Englis
 ## Installing
 1. Go to `brave://extensions/` or `chrome://extensions/` depending on your browser.
 2. Drag and drop the .zip file onto the extensions page.
+3. Make sure it's enabled!
 
 ## Todo
 ### Bug fixes
-- [ ] Stop stealing input focus on search engine homepages. (This bug only exists in Brave Browser)
+- [x] ~Stop stealing input focus on search engine homepages.~ <b>Fixed by restarting the browser.<b/>
 - [ ] Citation button not working on some search engine homepages.
 ### Features and Other
 - [ ] Port to Firefox.
@@ -24,12 +25,6 @@ Wanna help fact-check the fact checkers?
 
 OR
 
-[Join the Moderation Team](https://forms.gle/mVRk22LtntHgNJLMA)
-
-NOTE: The moderation team is comprised of an equal amount of members categorized by each side of the political compass. You need to take the political compass "test" to join the moderation team, and you won't be added until at least 3 other members of opposing sides of the compass can be added as well.
-[Take the test](https://politicalcompass.org/test)
-
-_What do the moderators do?_
-
-If you're a moderator, you'll be added to a discord channel where you can vote on the validity of incoming fact-check contributions.
-It's really important to research before leaving your vote, as the data will be added to the json file automatically throughout the day and subsequently update the plugin for everyone who has it installed.
+Leave me a message on Session Messenger
+  
+`055df016648221b360379a4b269798166d865c3790a7adc7bce110464e0888eb1e`
